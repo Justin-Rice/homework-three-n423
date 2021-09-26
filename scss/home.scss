@@ -1,0 +1,112 @@
+body{
+    .studentStorage{
+        text-align: center;
+    }
+    .form{
+        height: 600px;
+        width: 800px;
+        margin: 0 auto;
+        background-color: #449DD1;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction:column ;
+        border-radius: 10px;
+        border: #78C0E0 solid 2px;
+        .submit{
+            height: 50px;
+            width: 450px;
+            margin: auto;
+             //background-color: bisque;
+             position: relative;
+             top: 50px;
+             display: flex;
+             align-items: center;
+             justify-content: space-evenly;
+             input{
+                 height: 50px;
+                 width: 175px;
+                 border: none;
+                 text-decoration: none;
+                 //color: ;
+                // background-color: #78C0E0;
+                 border-radius: 5px;
+                 border: solid #150578 2px;
+
+             }
+         }
+        
+
+        .longInput{
+            height: 70px;
+            width: 400px;
+            //background-color: bisque;
+            margin-top: 3px;
+
+            input{
+                width: 200px;
+                height: 30px;
+                border: none;
+                width: 100%;
+               // background-color: #78C0E0;
+
+
+               
+            }
+            label{
+                font-size: 25px;
+                line-height: 40px;
+            }
+            textarea{
+                height: 70px;
+                width: 100%;
+                border: none;
+               // background-color: #78C0E0;
+
+            }
+            
+        }
+       
+
+    }
+
+    #content{
+        width: 800px;
+        margin: 0 auto;
+        //background-color: rebeccapurple;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        .student{
+            margin-top: 50px;
+            height: 280px;
+            width: 300px;
+            background-color: #449DD1;
+            text-align: left;
+            padding-left: 30px;
+            border: solid #78C0E0 2px;
+            border-radius: 6px;
+
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 18px;
+            }
+            span{
+                color: white;
+            }
+            #diff{
+                color: black;
+            }
+            
+
+        }
+
+    }
+
+
+
+}

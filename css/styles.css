@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+body .studentStorage {
+  text-align: center;
+}
+body .form {
+  height: 600px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: #449DD1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  border: #78C0E0 solid 2px;
+}
+body .form .submit {
+  height: 50px;
+  width: 450px;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+body .form .submit input {
+  height: 50px;
+  width: 175px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid #150578 2px;
+}
+body .form .longInput {
+  height: 70px;
+  width: 400px;
+  margin-top: 3px;
+}
+body .form .longInput input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  width: 100%;
+}
+body .form .longInput label {
+  font-size: 25px;
+  line-height: 40px;
+}
+body .form .longInput textarea {
+  height: 70px;
+  width: 100%;
+  border: none;
+}
+body #content {
+  width: 800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+body #content .student {
+  margin-top: 50px;
+  height: 280px;
+  width: 300px;
+  background-color: #449DD1;
+  text-align: left;
+  padding-left: 30px;
+  border: solid #78C0E0 2px;
+  border-radius: 6px;
+}
+body #content .student h1 {
+  font-size: 40px;
+}
+body #content .student p {
+  font-size: 18px;
+}
+body #content .student span {
+  color: white;
+}
+body #content .student #diff {
+  color: black;
+}
